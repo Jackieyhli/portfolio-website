@@ -1,24 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color:white;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  max-width: 1080px;
-	margin: 0 auto !important;
-	float: none !important;}
+}
 
-#hero {
+
+#hero h1 {
   text-align: center;
 }
-ul.nobull {
-  display:flex;
-  justify-content: center;
- }
 
-ul.nobull li{
-  margin: 20px;
-  list-style-type: none;
+#hero{
+  background-color: white;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 #contact{
@@ -33,18 +34,18 @@ img {
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 h1 {
-  font-size: 2.75em;
+  font-size: 2.25em;
   font-weight: 700; }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.75em;
   font-weight: 700;
 }
 h3 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 h4 {
@@ -101,4 +102,55 @@ a:focus {
   opacity: 0.9; /* Reduces the opacity of the button to 90% */
   text-decoration: none;
   color: #ffffff;
+}
+/* Layout styling */
+.container {
+   max-width: 1200px;
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 15px; /* 25px top and bottom, 15 left and right */
+}
+
+.workheader{margin-left: 15px;}
+
+.center{ text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+header {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width:100%;
+  -webkit-box-shadow: 0px 9px 15px 0px rgba(50, 50, 50, 0.71);
+-moz-box-shadow:    0px 9px 15px 0px rgba(50, 50, 50, 0.71);
+box-shadow:         0px 9px 15px 0px rgba(50, 50, 50, 0.71);
+}
+
+.below{ padding: 35px 0;
+
+}
+nav{
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+main {
+  padding-top: 133px;
 }

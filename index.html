@@ -17,10 +17,10 @@
   </head>
   <body>
     <header>
-      <div>
-        <img src="img/logo.svg" alt="Jackie Li" height="42" width="42">
+      <div class="container">
+        <img src="img/logo.svg" alt="Jackie Li" class="logo">
         <nav>
-          <ul class="nobull">
+          <ul class="navigation">
             <li>
               <a href="index.html">Work</a>
             </li>
@@ -35,37 +35,37 @@
       </div>
     </header>
     <main>
-      <div>
-        <div id="hero">
+      <div id="hero">
+        <div class="container">
           <h1>Hi, I'm Jackie. <br>
             <span>I'm a UX/UI Designer based in California</span>
           </h1>
-          <p> I’m a UX/UI Designer with a background in graphic design from California. </p>
+          <p class="center"> I’m a UX/UI Designer with a background in graphic design from California. </p>
         </div>
-        <div>
-          <h2>My work</h2>
+        <div >
+          <h2 class="workheader">My work</h2>
         </div>
         <div id="work">
-          <div class="image">
+          <div class="container">
             <picture>
               <source srcset="img/fitnessconnect@1x.jpg" media="(max-width:767px)">
               <img src="img/fitnessconnect@2x.jpg" alt="fitnessbanner">
             </picture>
           </div>
-          <div class="text">
+          <div class="row">
             <h3> Fitness Connect </h3>
             <p>Fitness Connect is a fitness app that incorporates meal tracking , a database of workout programs and exercises to help users reach their fitness goals. To start I conducted a competitive analysis of the other fitness apps on the market drawing out their strengths and weaknesses followed by user interviews to find out their needs in a fitness app. With the research done I proceeded to map out user flows and sketch out wireframes and with revisions through user feedback I proceed with the final screens.</p>
             <a href="fitnessconnect.html" class="button"> View Case Study </a>
           </div>
         </div>
         <div>
-          <div>
+          <div class="container">
             <picture>
               <source srcset="img/recipeworks@1x.jpg" media="(max-width:767px)">
               <img src="img/recipeworks@2x.jpg" alt="recipeworksbanner">
             </picture>
           </div>
-          <div>
+          <div class="row">
             <h3> Recipe Works </h3>
             <p>A recipe application. Conducted a competitive analysis, competitor Overview, Marketing Profile, SWOT Analysis, UX Analysis, and A/B testing to achieve the final screens with mockups. </p>
             <a href="#" class="button">View Case Study </a>
@@ -74,7 +74,7 @@
       </div>
     </main>
     <footer id="contact">
-      <div>
+      <div class="container">
         <div>
           <h2>Get in Touch</h2>
           <p> Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:+491234567">+49 1234567</a> Prefer sending an email? </p>
@@ -83,7 +83,8 @@
           <a href="mailto:google@google.com" class="button contact">Email me</a>
         </div>
         <div>
-          <ul class="nobull">
+          <nav>
+          <ul>
             <li>
               <a href="https://www.linkedin.com/in/jackie-li-0191b6162/" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
@@ -95,6 +96,7 @@
               </a>
             </li>
           </ul>
+        </nav>
         </div>
         <p>COPYRIGHT Jackie Li 2021 </p>
       </div>
