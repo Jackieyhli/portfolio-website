@@ -14,21 +14,27 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Jackie Li">
 	<meta name="description" content="Jackie li UX/UI Portfolio">
+	<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 	<title>Fitness Connect</title>
 </head>
 
 <body>
 	<header>
-		<div class="container"> <img src="img/logo.svg" alt="Jackie Li" class="logo">
+		<div class="container">
+			<div class="navtoggle" id="myNavtoggle">
+			<img src="img/logo.svg" alt="Jackie Li" class="logo">
 			<nav>
 				<ul class="navigation">
 					<li> <a href="index.html">Work</a> </li>
 					<li> <a href="about.html">About</a> </li>
-					<li> <a href="#contact">Contact</a> </li>
+					<li> <a href="#contact" onclick="menuToggle()">Contact</a> </li>
+					<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
 				</ul>
 			</nav>
 		</div>
+	</div>
 	</header>
+
 	<main>
 		<div class="below">
 			<h2 class="workheader"> Fitness Connect </h2> </div>
